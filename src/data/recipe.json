@@ -1,0 +1,150 @@
+{
+  "data": [
+      {
+          "id": 1,
+          "name": "Fried Rice",
+          "description": "Indonesian fried rice made with a mix of ingredients including soy sauce and chicken.",
+          "category": "Rice",
+          "image": "/img/rice.jpg",
+          "likes": 0,
+          "ingredients": [
+              "Rice",
+              "Garlic",
+              "Shallots",
+              "Sweet soy sauce",
+              "Egg",
+              "Chicken",
+              "Salt",
+              "Pepper"
+          ],
+          "instructions": [
+              "Heat oil in a pan.",
+              "Sauté the shallots and garlic until fragrant.",
+              "Add the chicken and cook until done.",
+              "Add the rice and mix well.",
+              "Add sweet soy sauce, salt, and pepper to taste.",
+              "Cook until the rice is hot and the flavors are well mixed.",
+              "Serve with a fried egg on top."
+          ]
+      },
+      {
+          "id": 2,
+          "name": "Chicken Soto",
+          "description": "Traditional Indonesian chicken soup with a mix of spices and herbs.",
+          "category": "Soup",
+          "image": "/img/soto.jpg",
+          "likes": 0,
+          "ingredients": [
+              "Chicken",
+              "Shallots",
+              "Garlic",
+              "Lemongrass",
+              "Kaffir lime leaves",
+              "Ginger",
+              "Turmeric",
+              "Salt",
+              "Pepper",
+              "Chicken broth",
+              "Glass noodles",
+              "Bean sprouts",
+              "Boiled egg",
+              "Lime",
+              "Chili sauce"
+          ],
+          "instructions": [
+              "Boil the chicken until cooked, remove and shred.",
+              "Sauté the spice paste until fragrant.",
+              "Add lemongrass, kaffir lime leaves, ginger, and turmeric, sauté briefly.",
+              "Add chicken broth and bring to a boil.",
+              "Add shredded chicken, salt, and pepper, cook briefly.",
+              "Serve the soto with glass noodles, bean sprouts, boiled egg, lime, and chili sauce."
+          ]
+      },
+      {
+          "id": 3,
+          "name": "Beef Rendang",
+          "description": "Indonesian slow-cooked beef in coconut milk and spices.",
+          "category": "Beef",
+          "image": "/img/rendang.jpg",
+          "likes": 0,
+          "ingredients": [
+              "Beef",
+              "Coconut milk",
+              "Garlic",
+              "Shallots",
+              "Ginger",
+              "Galangal",
+              "Lemongrass",
+              "Turmeric",
+              "Coriander",
+              "Cumin",
+              "Salt",
+              "Kaffir lime leaves",
+              "Bay leaves",
+              "Chili"
+          ],
+          "instructions": [
+              "Cut beef into chunks.",
+              "Blend garlic, shallots, ginger, galangal, lemongrass, turmeric, coriander, and cumin into a paste.",
+              "Sauté the paste until fragrant.",
+              "Add beef, coconut milk, kaffir lime leaves, bay leaves, and chili.",
+              "Cook slowly on low heat until the beef is tender and the sauce is thickened.",
+              "Serve with rice."
+          ]
+      },
+      {
+          "id": 4,
+          "name": "Gado-Gado",
+          "description": "Indonesian salad with a mix of boiled vegetables, eggs, tofu, and peanut sauce.",
+          "category": "Salad",
+          "image": "/img/gado.jpg",
+          "likes": 0,
+          "ingredients": [
+              "Cabbage",
+              "Bean sprouts",
+              "Green beans",
+              "Potatoes",
+              "Tofu",
+              "Tempeh",
+              "Boiled egg",
+              "Peanut sauce",
+              "Fried shallots",
+              "Lime"
+          ],
+          "instructions": [
+              "Boil the cabbage, bean sprouts, and green beans until cooked but still crisp.",
+              "Boil the potatoes until tender, then cut into chunks.",
+              "Fry the tofu and tempeh until golden brown.",
+              "Arrange the vegetables, potatoes, tofu, and tempeh on a plate.",
+              "Top with boiled egg and pour over the peanut sauce.",
+              "Garnish with fried shallots and a squeeze of lime."
+          ]
+      },
+      {
+          "id": 5,
+          "name": "Satay",
+          "description": "Grilled skewered meat served with a savory peanut sauce.",
+          "category": "Grilled",
+          "image": "/img/sate.jpg",
+          "likes": 0,
+          "ingredients": [
+              "Chicken or beef",
+              "Soy sauce",
+              "Garlic",
+              "Shallots",
+              "Coriander",
+              "Cumin",
+              "Turmeric",
+              "Peanut sauce",
+              "Skewers"
+          ],
+          "instructions": [
+              "Cut the meat into bite-sized pieces.",
+              "Marinate the meat with soy sauce, garlic, shallots, coriander, cumin, and turmeric for at least 1 hour.",
+              "Thread the meat onto skewers.",
+              "Grill the skewers until the meat is cooked through and slightly charred.",
+              "Serve with peanut sauce."
+          ]
+      }
+  ]
+}
