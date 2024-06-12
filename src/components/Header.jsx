@@ -1,51 +1,28 @@
-import { Link } from "react-router-dom"
-import { Popular } from "./Popular"
-import PropTypes from "prop-types"
-import Typewriter from "typewriter-effect";
-import headerImg from "/img/header.jpg";
-
-export const Header = ({ recipeData }) => {
-    
-   
+import headerImg from "/img/header.jpg"
+import Typewriter from "typewriter-effect"
+export const Header = () => {
     return (
-        <section id="header" className="p-6 ">
-            <div className="flex justify-between p-2">
-                <p className="uppercase text-2xl font-bold text-white">Get <span className="text-error">Recipe</span></p>
-                <Link to={'/login'}>
-
-                    <button className="btn btn-md btn-outline btn-error">Login</button>
-                </Link>
-            </div>
-            <div className="md:flex md:justify-around md:items-center p-6">
-                <div className="md:w-1/2 p-6 leading-loose">
-                    <div className="text-white mb-5">
-                        <p className="md:text-2xl text-xl font-semibold  my-2"> Embark on a Culinary Journey and Discover Deliciousness in Every Dish</p>
-                        <div className="md:text-4xl text-3xl text-error font-bold" >
-                            <Typewriter 
+        <>
+          
+            <section id="home" className="mb-28">
+            <div className="flex justify-evenly mt-10 items-center ">
+                <div className="w-1/2">
+                    <p className="md:text-2xl text-xl font-semibold  my-2">Embark on a Culinary Journey and Discover Deliciousness in Every Dish</p>
+                    <div className="md:text-4xl text-primary font-bold text-2xl">
+                        <Typewriter
                             options={{ 
                                 strings : ["Comprehensive", "Delicious", "Exciting"],
                                 autoStart: true,
                                 loop : true
                              }}
-                            />
-                        </div>
+                        />
                     </div>
-                    <Link to={'/recipe'}>
-
-                        <button className="btn btn-outline btn-error ">Get Started</button>
-                    </Link>
                 </div>
-                <div className="md:block hidden" >
-                    <img src={headerImg} className="mask mask-circle max-w-96" />
+                <div className="md:block hidden">
+                    <img src={headerImg} className="mask mask-circle w-80" />
                 </div>
             </div>
-            <div className="text-white">
-                <Popular data={recipeData} />
-            </div>
-        </section>
+            </section>
+        </>
     )
-}
-
-Header.propTypes = {
-    recipeData: PropTypes.any
 }
