@@ -3,6 +3,7 @@
       {
           "id": 1,
           "name": "Fried Rice",
+          "slug" : "fried-rice",
           "description": "Indonesian fried rice made with a mix of ingredients including soy sauce and chicken.",
           "category": "Rice",
           "image": "/img/rice.jpg",
@@ -30,6 +31,8 @@
       {
           "id": 2,
           "name": "Chicken Soto",
+          "slug" : "chicken-soto",
+
           "description": "Traditional Indonesian chicken soup with a mix of spices and herbs.",
           "category": "Soup",
           "image": "/img/soto.jpg",
@@ -63,10 +66,12 @@
       {
           "id": 3,
           "name": "Beef Rendang",
+          "slug" : "beef-rendang",
+
           "description": "Indonesian slow-cooked beef in coconut milk and spices.",
           "category": "Beef",
           "image": "/img/rendang.jpg",
-          "likes": 0,
+          "likes": 10,
           "ingredients": [
               "Beef",
               "Coconut milk",
@@ -95,6 +100,8 @@
       {
           "id": 4,
           "name": "Gado-Gado",
+          "slug" : "gado-gado",
+
           "description": "Indonesian salad with a mix of boiled vegetables, eggs, tofu, and peanut sauce.",
           "category": "Salad",
           "image": "/img/gado.jpg",
@@ -123,10 +130,11 @@
       {
           "id": 5,
           "name": "Satay",
+          "slug" : "satay",
           "description": "Grilled skewered meat served with a savory peanut sauce.",
           "category": "Grilled",
           "image": "/img/sate.jpg",
-          "likes": 0,
+          "likes": 30,
           "ingredients": [
               "Chicken or beef",
               "Soy sauce",
